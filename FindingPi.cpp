@@ -36,9 +36,6 @@ double findPi(int darts){
         double x = (double(randomNumber(gen))) / N;
         double y = (double(randomNumber(gen))) / N;
 
-
-
-
         // distance from the center of the circle to the point, is it within the radius?
         d = sqrt( pow(x,2) + pow(y,2));
         if (d < 1)
