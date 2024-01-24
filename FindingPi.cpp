@@ -21,11 +21,13 @@ using namespace std;
 
 double findPi(int darts){
 
-    //random number generator
+    //declarations
     int N = 1000;
     int counter = 0;
     int inCircle = 0;
     double d, area;
+
+    //generating random numbers between 0 and 1
     std::random_device seed;
     std:: mt19937 gen(seed());
     std::uniform_int_distribution<> randomNumber(1,N);
